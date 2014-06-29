@@ -260,11 +260,11 @@ done
 
 ####
 
-curl -L https://github.com/hjuutilainen/munkiadmin/releases/download/v0.3.0/MunkiAdmin-0.3.0.dmg -o $REPOLOC/munkiadmin.dmg
+curl -L https://github.com/hjuutilainen/munkiadmin/releases/download/v0.4.0-preview.2/MunkiAdmin-0.4.0-preview.2.dmg -o $REPOLOC/munkiadmin.dmg
 hdiutil attach $REPOLOC/munkiadmin.dmg -nobrowse
-cd /Volumes/MunkiAdmin-0.3.0/
-cp -R /Volumes/MunkiAdmin-0.3.0/MunkiAdmin.app /Applications/Utilities
-hdiutil detach /Volumes/MunkiAdmin-0.3.0 -force
+cd /Volumes/MunkiAdmin-0.4.0-preview.2/
+cp -R /Volumes/MunkiAdmin-0.4.0-preview.2/MunkiAdmin.app /Applications/Utilities
+hdiutil detach /Volumes/MunkiAdmin-0.4.0-preview.2 -force
 
 ####
 
